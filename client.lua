@@ -30,7 +30,7 @@ AddEventHandler('Chaos:showSupport', function(playername, playerid, message, loc
     local time = 0
     while time < 800 do
         time = time + 1
-        showInfobar('Press ~g~E~s~, to teleport to ~y~' .. playername .. '.')
+        showInfobar('Press ~g~E~s~, to teleport to ~y~' .. playername .. 'or ~g~G~s~ to reject!.')
         if IsControlJustReleased(0, 38) then
             SetEntityCoords(PlayerPedId(), location.x, location.y, location.z + 1.0)
             time = 800
