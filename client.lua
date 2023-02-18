@@ -25,12 +25,12 @@ end)
 RegisterNetEvent('Chaos:showSupport')
 AddEventHandler('Chaos:showSupport', function(playername, playerid, message, location)
     
-    ESX.ShowNotification('~r~Supportfall!\n~y~' .. playername .. ' ~s~(~y~' .. playerid .. '~s~) benötigt Hilfe. \nNachricht: ~b~' .. message)
+    ESX.ShowNotification('~r~Support Case!\n~y~' .. playername .. ' ~s~(~y~' .. playerid .. '~s~) needs Help. \nMessage: ~b~' .. message)
 
     local time = 0
     while time < 800 do
         time = time + 1
-        showInfobar('Drücke ~g~E~s~, um dich zu ~y~' .. playername .. ' ~s~zu teleportieren.')
+        showInfobar('Press ~g~E~s~, to teleport to ~y~' .. playername .. '.')
         if IsControlJustReleased(0, 38) then
             SetEntityCoords(PlayerPedId(), location.x, location.y, location.z + 1.0)
             time = 800
