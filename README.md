@@ -9,3 +9,5 @@ Only the group "moderator", "admin" & "superadmin" will recive a Popup!
 
 Requirements
 FiveM Server ^^
+
+Bug found? Contact me on discord! ChaosFabiYT#6478
