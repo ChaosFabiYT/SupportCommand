@@ -1,5 +1,5 @@
 # SupportCommand
-A german /support script, language can be edited in client.lua
+A /support script, language can be edited in client.lua
 
 Showcase Video: comming soon!
 Features
