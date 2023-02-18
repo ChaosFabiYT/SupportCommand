@@ -8,4 +8,4 @@ No locales!
 Only the group "moderator", "admin" & "superadmin" will recive a Popup!
 
 Requirements
-ESX (not sure)
+FiveM Server ^^
